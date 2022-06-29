@@ -2,18 +2,16 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+Create moving box using javascript
 
 ## Description
-TODO - How have you solved the problem?
+This was solved using intervals in javascript.
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+N/A. The box moves on it's own as soon as the window is opened.
 
 ## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
+It moves around the screen from right to bottom and back again
 ```
 
 ### The Core Team
