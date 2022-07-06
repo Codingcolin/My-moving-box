@@ -1,0 +1,18 @@
+<html>
+    <div id="my_box_realtime" style= "background-color: red; position: absolute; right: 70; bottom: 70; min-width: 100px; min-height: 100px"></div>
+    <script type="text/javascript">
+
+    const box = document.getElementById('my_box_realtime');
+    let jump = 1;
+    let pos = 0;
+    window.setInterval(() => {
+    pos = pos + jump;
+    if (pos > 150 || pos < 0) {
+        jump = jump * (-1);
+    }
+    box.style.right = pos + 'px';
+    box.style.bottom = pos + 'px';
+    }, 50);
+
+    </script>
+</html>
